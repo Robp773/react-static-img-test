@@ -1,0 +1,61 @@
+{
+  "prefetchRate": 5,
+  "maxThreads": null,
+  "disableRoutePrefixing": false,
+  "outputFileRate": 100,
+  "extensions": [
+    ".js",
+    ".jsx"
+  ],
+  "minLoadTime": 200,
+  "disablePreload": false,
+  "disableRuntime": false,
+  "preloadPollInterval": 300,
+  "productionSourceMaps": false,
+  "entry": "index.js",
+  "plugins": [
+    [
+      "C:\\Users\\robpe\\web-dev\\statictest\\node_modules\\react-static-plugin-source-filesystem\\node.api.js",
+      {
+        "location": "C:\\Users\\robpe\\web-dev\\statictest\\src\\pages"
+      }
+    ],
+    "C:\\Users\\robpe\\web-dev\\statictest\\node_modules\\react-static-plugin-reach-router\\browser.api.js",
+    "C:\\Users\\robpe\\web-dev\\statictest\\node_modules\\react-static-plugin-sitemap\\dist\\node.api.js",
+    "C:\\Users\\robpe\\web-dev\\statictest"
+  ],
+  "paths": {
+    "ROOT": "C:\\Users\\robpe\\web-dev\\statictest",
+    "SRC": "C:\\Users\\robpe\\web-dev\\statictest\\src",
+    "DIST": "C:\\Users\\robpe\\web-dev\\statictest\\dist",
+    "ASSETS": "C:\\Users\\robpe\\web-dev\\statictest\\dist",
+    "PLUGINS": "C:\\Users\\robpe\\web-dev\\statictest\\plugins",
+    "TEMP": "C:\\Users\\robpe\\web-dev\\statictest\\tmp",
+    "ARTIFACTS": "C:\\Users\\robpe\\web-dev\\statictest\\artifacts",
+    "PUBLIC": "C:\\Users\\robpe\\web-dev\\statictest\\public",
+    "NODE_MODULES": "C:\\Users\\robpe\\web-dev\\statictest\\node_modules",
+    "EXCLUDE_MODULES": "C:\\Users\\robpe\\web-dev\\statictest\\node_modules",
+    "PACKAGE": "C:\\Users\\robpe\\web-dev\\statictest\\package.json",
+    "HTML_TEMPLATE": "C:\\Users\\robpe\\web-dev\\statictest\\dist\\index.html",
+    "STATIC_DATA": "C:\\Users\\robpe\\web-dev\\statictest\\dist\\staticData"
+  },
+  "siteRoot": "/",
+  "basePath": "",
+  "publicPath": "/",
+  "assetsPath": "",
+  "extractCssChunks": false,
+  "inlineCss": false,
+  "babelExcludes": [],
+  "devServer": {
+    "host": "localhost",
+    "port": 3000
+  },
+  "terser": {
+    "terserOptions": {
+      "mangle": {},
+      "parse": {},
+      "compress": {},
+      "output": {}
+    }
+  }
+}
